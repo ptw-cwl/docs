@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Ptw-cwl</title>
@@ -9,15 +10,22 @@
   <link rel="icon" type="image/png" href="article/img/common/logo.png">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
+
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
       name: 'ptw-cwl',
-      repo: ''
+      copyCode: {
+        buttonText: '复制',
+        errorText: '错误',
+        successText: '已复制',
+      },
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
 </body>
+
 </html>
