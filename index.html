@@ -21,11 +21,29 @@
         errorText: '错误',
         successText: '已复制',
       },
+      tabs: {
+        //确定页面刷新/重新访问后是否恢复选项卡选择。
+        persist: true, 
+        //确定选项卡选择是否将在具有匹配标签的选项卡之间同步。
+        sync: false, 
+        //设置选项卡主题
+        theme: 'classic', 
+        //确定是否可以使用选项卡注释来定义选项卡集中的选项卡。
+        tabComments: true, 
+        //确定是否可以使用标题 + 粗体标记来定义选项卡集中的选项卡。
+        tabHeadings: true 
+      }
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+  </script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
 </body>
 
 </html>
