@@ -76,12 +76,6 @@ https://gitcode.com/qq_62701769/docs/blob/master/article/4144527851.md
 
 <!-- tabs:end -->
 
-这是一段普通的文本&nbsp;&nbsp;接着是两个全角空格。  
-  
-这是一段普通的文本&ensp;接着是一个半角空格宽度的空格。  
-  
-这是一段普通的文本&emsp;接着是一个全角空格宽度的空格。
-
 
 <!-- tabs:start -->
 
